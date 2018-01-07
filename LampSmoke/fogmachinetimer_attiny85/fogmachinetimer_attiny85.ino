@@ -1,4 +1,4 @@
-int blinkPin = 9;
+int blinkPin = 7;
 
 void setup()
 {
@@ -12,6 +12,6 @@ void loop()
     delay(1000);
   }
   digitalWrite(blinkPin, HIGH);
-  delay(1000);
+  delay(1500);
   digitalWrite(blinkPin, LOW);
 }
