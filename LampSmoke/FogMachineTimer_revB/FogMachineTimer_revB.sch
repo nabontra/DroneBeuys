@@ -226,7 +226,7 @@
 <pad name="1" x="0" y="6.45" drill="0.635" diameter="2.54" shape="long"/>
 <pad name="2" x="0" y="0.45" drill="0.635" diameter="2" shape="long"/>
 </package>
-<package name="HE3621A0510" urn="urn:adsk.eagle:footprint:13183712/1" library_version="13">
+<package name="HE3621A0510" urn="urn:adsk.eagle:footprint:13183712/1" locally_modified="yes" library_version="14" library_locally_modified="yes">
 <pad name="1" x="0" y="0" drill="0.8128" shape="long"/>
 <pad name="2" x="0" y="5.08" drill="0.8128" shape="long"/>
 <pad name="3" x="0" y="10.16" drill="0.8128" shape="long"/>
@@ -235,7 +235,7 @@
 <wire x1="3.175" y1="-3.683" x2="3.175" y2="19.177" width="0.127" layer="21"/>
 <wire x1="3.175" y1="19.177" x2="-3.175" y2="19.177" width="0.127" layer="21"/>
 <wire x1="-3.175" y1="19.177" x2="-3.175" y2="-3.683" width="0.127" layer="21"/>
-<circle x="-1.905" y="-2.286" radius="0.683915625" width="0.127" layer="21"/>
+<circle x="-1.905" y="18.034" radius="0.683915625" width="0.127" layer="21"/>
 <text x="-3.81" y="-3.81" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="5.08" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
@@ -253,7 +253,7 @@
 <packageinstance name="CUI_PJ-037A_0"/>
 </packageinstances>
 </package3d>
-<package3d name="HE3621A0510" urn="urn:adsk.eagle:package:13183713/2" type="box" library_version="13">
+<package3d name="HE3621A0510" urn="urn:adsk.eagle:package:13183713/2" type="box" library_version="14" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="HE3621A0510"/>
 </packageinstances>
@@ -403,7 +403,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ATTINY85-20SU
 </device>
 </devices>
 </deviceset>
-<deviceset name="HE3621A0510" urn="urn:adsk.eagle:component:13183714/2" library_version="13">
+<deviceset name="HE3621A0510" urn="urn:adsk.eagle:component:13183714/2" library_version="14" library_locally_modified="yes">
 <description>Miniature SIL Relay Form A SPST-NO
 Specifications
 
@@ -2904,6 +2904,251 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </deviceset>
 </devicesets>
 </library>
+<library name="adafruit" urn="urn:adsk.eagle:library:420">
+<packages>
+<package name="TO92" urn="urn:adsk.eagle:footprint:6240023/1" library_version="2">
+<description>&lt;b&gt;TO-92&lt;/b&gt;</description>
+<wire x1="-2.095" y1="-1.651" x2="-0.7869" y2="2.5484" width="0.1524" layer="21" curve="-111.097684" cap="flat"/>
+<wire x1="0.7869" y1="2.5484" x2="2.095" y2="-1.651" width="0.1524" layer="21" curve="-111.097684" cap="flat"/>
+<wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.1524" layer="21"/>
+<wire x1="-2.254" y1="-0.254" x2="-0.286" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-2.655" y1="-0.254" x2="-2.254" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="-0.286" y1="-0.254" x2="0.286" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="2.254" y1="-0.254" x2="2.655" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="0.286" y1="-0.254" x2="2.254" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-0.7864" y1="2.5484" x2="0.7864" y2="2.5484" width="0.1524" layer="51" curve="-34.298964" cap="flat"/>
+<pad name="1" x="-1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="1.905" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="2.413" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="2.921" y="-1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="TO220H" urn="urn:adsk.eagle:footprint:6240024/1" library_version="2">
+<description>&lt;b&gt;TO-220&lt;/b&gt;</description>
+<wire x1="-5.207" y1="-7.62" x2="5.207" y2="-7.62" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="8.255" x2="-5.207" y2="8.255" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="-7.62" x2="5.207" y2="4.826" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="4.826" x2="4.318" y2="4.826" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="4.826" x2="4.318" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="6.35" x2="5.207" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="6.35" x2="5.207" y2="8.255" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="-7.62" x2="-5.207" y2="4.826" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="4.826" x2="-4.318" y2="4.826" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="4.826" x2="-4.318" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="6.35" x2="-5.207" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="6.35" x2="-5.207" y2="8.255" width="0.1524" layer="21"/>
+<wire x1="-4.572" y1="-6.985" x2="4.572" y2="-6.985" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="1.27" x2="4.572" y2="-6.985" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="1.27" x2="-4.572" y2="1.27" width="0.0508" layer="21"/>
+<wire x1="-4.572" y1="-6.985" x2="-4.572" y2="1.27" width="0.0508" layer="21"/>
+<circle x="0" y="4.826" radius="1.8034" width="0.1524" layer="21"/>
+<circle x="0" y="4.826" radius="2.54" width="0" layer="43"/>
+<circle x="0" y="4.826" radius="2.54" width="0" layer="42"/>
+<pad name="1" x="-2.54" y="-10.16" drill="1.1176" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-10.16" drill="1.1176" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-10.16" drill="1.1176" shape="long" rot="R90"/>
+<text x="-5.461" y="-10.922" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="7.366" y="-11.049" size="1.778" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="2.159" y1="-11.049" x2="2.921" y2="-10.414" layer="21"/>
+<rectangle x1="-0.381" y1="-11.049" x2="0.381" y2="-10.414" layer="21"/>
+<rectangle x1="-2.921" y1="-11.049" x2="-2.159" y2="-10.414" layer="21"/>
+<rectangle x1="-3.175" y1="-10.414" x2="-1.905" y2="-7.62" layer="21"/>
+<rectangle x1="-0.635" y1="-10.414" x2="0.635" y2="-7.62" layer="21"/>
+<rectangle x1="1.905" y1="-10.414" x2="3.175" y2="-7.62" layer="21"/>
+<hole x="0" y="4.826" drill="3.302"/>
+</package>
+<package name="TO39" urn="urn:adsk.eagle:footprint:6240025/1" library_version="2">
+<description>&lt;b&gt;Metal Can Package&lt;/b&gt;</description>
+<wire x1="-4.0386" y1="-3.5306" x2="-3.5052" y2="-2.9972" width="0.1524" layer="21"/>
+<wire x1="-2.9718" y1="-3.5306" x2="-3.5052" y2="-4.064" width="0.1524" layer="21"/>
+<wire x1="-3.5052" y1="-4.064" x2="-4.0386" y2="-3.5306" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="4.572" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="3.8608" width="0.0508" layer="21"/>
+<pad name="1" x="0" y="-2.54" drill="0.8128" shape="octagon"/>
+<pad name="2" x="2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad name="3" x="0" y="2.54" drill="0.8128" shape="octagon"/>
+<text x="-2.794" y="4.826" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.302" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="TO252" urn="urn:adsk.eagle:footprint:6240026/1" library_version="2">
+<description>&lt;b&gt;SMALL OUTLINE TRANSISTOR&lt;/b&gt;&lt;p&gt;
+TS-003</description>
+<wire x1="3.2766" y1="3.8354" x2="3.277" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="3.277" y1="-2.159" x2="-3.277" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="-2.159" x2="-3.2766" y2="3.8354" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="3.835" x2="3.2774" y2="3.8346" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="3.937" x2="-2.5654" y2="4.6482" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="4.6482" x2="-2.1082" y2="5.1054" width="0.2032" layer="51"/>
+<wire x1="-2.1082" y1="5.1054" x2="2.1082" y2="5.1054" width="0.2032" layer="51"/>
+<wire x1="2.1082" y1="5.1054" x2="2.5654" y2="4.6482" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="4.6482" x2="2.5654" y2="3.937" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="3.937" x2="-2.5654" y2="3.937" width="0.2032" layer="51"/>
+<smd name="3" x="0" y="2.5" dx="5.4" dy="6.2" layer="1"/>
+<smd name="1" x="-2.28" y="-4.8" dx="1" dy="1.6" layer="1"/>
+<smd name="2" x="2.28" y="-4.8" dx="1" dy="1.6" layer="1"/>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.7178" y1="-5.1562" x2="-1.8542" y2="-2.2606" layer="51"/>
+<rectangle x1="1.8542" y1="-5.1562" x2="2.7178" y2="-2.2606" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.0226" x2="0.4318" y2="-2.2606" layer="21"/>
+<polygon width="0.1998" layer="51">
+<vertex x="-2.5654" y="3.937"/>
+<vertex x="-2.5654" y="4.6482"/>
+<vertex x="-2.1082" y="5.1054"/>
+<vertex x="2.1082" y="5.1054"/>
+<vertex x="2.5654" y="4.6482"/>
+<vertex x="2.5654" y="3.937"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="TO92" urn="urn:adsk.eagle:package:6240669/1" type="box" library_version="2">
+<description>&lt;b&gt;TO-92&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="TO92"/>
+</packageinstances>
+</package3d>
+<package3d name="TO220H" urn="urn:adsk.eagle:package:6240670/1" type="box" library_version="2">
+<description>&lt;b&gt;TO-220&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="TO220H"/>
+</packageinstances>
+</package3d>
+<package3d name="TO39" urn="urn:adsk.eagle:package:6240671/1" type="box" library_version="2">
+<description>&lt;b&gt;Metal Can Package&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="TO39"/>
+</packageinstances>
+</package3d>
+<package3d name="TO252" urn="urn:adsk.eagle:package:6240672/1" type="box" library_version="2">
+<description>&lt;b&gt;SMALL OUTLINE TRANSISTOR&lt;/b&gt;&lt;p&gt;
+TS-003</description>
+<packageinstances>
+<packageinstance name="TO252"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="78XX" urn="urn:adsk.eagle:symbol:6239516/1" library_version="2">
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="-7.62" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-7.62" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.032" y="-4.318" size="1.524" layer="95">GND</text>
+<pin name="VI" x="-10.16" y="0" length="short" direction="in"/>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="VO" x="10.16" y="0" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="78*" urn="urn:adsk.eagle:component:6241006/1" prefix="IC" library_version="2">
+<description>Positive &lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;
+&lt;p&gt;
+Added bigger pads to the TO-92 package</description>
+<gates>
+<gate name="A1" symbol="78XX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="Z" package="TO92">
+<connects>
+<connect gate="A1" pin="GND" pad="2"/>
+<connect gate="A1" pin="VI" pad="3"/>
+<connect gate="A1" pin="VO" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240669/1"/>
+</package3dinstances>
+<technologies>
+<technology name="L05"/>
+<technology name="L08"/>
+<technology name="L12"/>
+<technology name="L15"/>
+<technology name="L18"/>
+<technology name="L24"/>
+</technologies>
+</device>
+<device name="T" package="TO220H">
+<connects>
+<connect gate="A1" pin="GND" pad="2"/>
+<connect gate="A1" pin="VI" pad="1"/>
+<connect gate="A1" pin="VO" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240670/1"/>
+</package3dinstances>
+<technologies>
+<technology name="05"/>
+<technology name="06"/>
+<technology name="08"/>
+<technology name="12"/>
+<technology name="15"/>
+<technology name="18"/>
+<technology name="24"/>
+</technologies>
+</device>
+<device name="H" package="TO39">
+<connects>
+<connect gate="A1" pin="GND" pad="3"/>
+<connect gate="A1" pin="VI" pad="1"/>
+<connect gate="A1" pin="VO" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240671/1"/>
+</package3dinstances>
+<technologies>
+<technology name="05"/>
+<technology name="06"/>
+<technology name="08"/>
+<technology name="12"/>
+<technology name="15"/>
+<technology name="18"/>
+<technology name="24"/>
+</technologies>
+</device>
+<device name="L" package="TO92">
+<connects>
+<connect gate="A1" pin="GND" pad="2"/>
+<connect gate="A1" pin="VI" pad="3"/>
+<connect gate="A1" pin="VO" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240669/1"/>
+</package3dinstances>
+<technologies>
+<technology name="05"/>
+<technology name="06"/>
+<technology name="08"/>
+<technology name="12"/>
+<technology name="15"/>
+<technology name="18"/>
+<technology name="24"/>
+</technologies>
+</device>
+<device name="DT" package="TO252">
+<connects>
+<connect gate="A1" pin="GND" pad="3"/>
+<connect gate="A1" pin="VI" pad="1"/>
+<connect gate="A1" pin="VO" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240672/1"/>
+</package3dinstances>
+<technologies>
+<technology name="05"/>
+<technology name="06"/>
+<technology name="08"/>
+<technology name="12"/>
+<technology name="15"/>
+<technology name="18"/>
+<technology name="24"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2918,12 +3163,14 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <part name="J1" library="BadgeParts" deviceset="M20-9980346" device=""/>
 <part name="J2" library="NickParts" library_urn="urn:adsk.eagle:library:4753178" deviceset="CUI_PJ-037A" device="CUI_PJ-037A_0_0" package3d_urn="urn:adsk.eagle:package:4865637/3"/>
 <part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
-<part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k"/>
+<part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k5"/>
 <part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="1206" package3d_urn="urn:adsk.eagle:package:39352/1"/>
-<part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="56R"/>
+<part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k5"/>
 <part name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
 <part name="RELAY" library="NickParts" library_urn="urn:adsk.eagle:library:4753178" deviceset="HE3621A0510" device="" package3d_urn="urn:adsk.eagle:package:13183713/2"/>
 <part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="1206" package3d_urn="urn:adsk.eagle:package:39352/1"/>
+<part name="LM7805" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="78*" device="DT" package3d_urn="urn:adsk.eagle:package:6240672/1" technology="05"/>
+<part name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.33uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -2942,9 +3189,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <attribute name="VALUE" x="30.48" y="91.694" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="30.48" y="102.108" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="R1" gate="G$1" x="66.04" y="134.62" smashed="yes">
-<attribute name="NAME" x="66.04" y="136.144" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="66.04" y="133.096" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="R1" gate="G$1" x="17.78" y="134.62" smashed="yes">
+<attribute name="NAME" x="17.78" y="136.144" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="17.78" y="133.096" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="D1" gate="G$1" x="101.6" y="99.06" smashed="yes" rot="R270">
 <attribute name="NAME" x="97.028" y="102.489" size="1.778" layer="95" font="vector"/>
@@ -2954,14 +3201,22 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <attribute name="NAME" x="121.92" y="100.584" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="121.92" y="97.536" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="C1" gate="G$1" x="137.16" y="127" smashed="yes" rot="R180">
-<attribute name="NAME" x="135.636" y="124.079" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="135.636" y="129.159" size="1.778" layer="96" font="vector" rot="R180"/>
+<instance part="C1" gate="G$1" x="152.4" y="142.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="150.876" y="139.319" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="150.876" y="144.399" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
 <instance part="RELAY" gate="G$1" x="38.1" y="129.54" smashed="yes" rot="R90"/>
 <instance part="D2" gate="G$1" x="111.76" y="99.06" smashed="yes" rot="R270">
 <attribute name="NAME" x="107.188" y="102.489" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="107.188" y="97.155" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="LM7805" gate="A1" x="137.16" y="154.94" smashed="yes">
+<attribute name="NAME" x="129.54" y="160.655" size="1.778" layer="95"/>
+<attribute name="VALUE" x="129.54" y="158.115" size="1.778" layer="96"/>
+</instance>
+<instance part="C2" gate="G$1" x="127" y="142.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="125.476" y="139.319" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="125.476" y="144.399" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -2993,11 +3248,18 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="J2" gate="G$0" pin="2"/>
-<wire x1="109.22" y1="124.46" x2="114.3" y2="124.46" width="0.1524" layer="91"/>
 <label x="114.3" y="124.46" size="1.778" layer="95" xref="yes"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="121.92" x2="114.3" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="121.92" x2="114.3" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="137.16" x2="152.4" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="124.46" x2="137.16" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="LM7805" gate="A1" pin="GND"/>
+<wire x1="137.16" y1="124.46" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="147.32" x2="137.16" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="127" y1="137.16" x2="137.16" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="137.16" x2="137.16" y2="124.46" width="0.1524" layer="91"/>
+<junction x="137.16" y="137.16"/>
+<junction x="137.16" y="124.46"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -3012,13 +3274,11 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <label x="10.16" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$0" pin="1"/>
-<wire x1="109.22" y1="129.54" x2="114.3" y2="129.54" width="0.1524" layer="91"/>
-<label x="114.3" y="129.54" size="1.778" layer="95" xref="yes"/>
+<pinref part="LM7805" gate="A1" pin="VO"/>
+<wire x1="152.4" y1="154.94" x2="147.32" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="129.54" x2="137.16" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="134.62" x2="114.3" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="134.62" x2="114.3" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="154.94" x2="152.4" y2="144.78" width="0.1524" layer="91"/>
+<label x="152.4" y="154.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PB2" class="0">
@@ -3062,11 +3322,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <label x="2.54" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="17.78" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="17.78" y1="134.62" x2="27.94" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="134.62" x2="27.94" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="RELAY" gate="G$1" pin="3"/>
-<wire x1="27.94" y1="132.08" x2="35.56" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="134.62" x2="5.08" y2="134.62" width="0.1524" layer="91"/>
+<label x="5.08" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PB5" class="0">
@@ -3119,19 +3377,12 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="43.18" y1="93.98" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="134.62" x2="76.2" y2="134.62" width="0.1524" layer="91"/>
-<label x="76.2" y="134.62" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="U1_P6" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="RELAY" gate="G$1" pin="4"/>
 <wire x1="35.56" y1="137.16" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="139.7" x2="43.18" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="139.7" x2="43.18" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="134.62" x2="60.96" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="134.62" x2="58.42" y2="134.62" width="0.1524" layer="91"/>
+<label x="58.42" y="134.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -3146,6 +3397,26 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="99.06" x2="116.84" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="134.62" x2="22.86" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="132.08" x2="35.56" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="RELAY" gate="G$1" pin="3"/>
+</segment>
+</net>
+<net name="VIN" class="0">
+<segment>
+<pinref part="LM7805" gate="A1" pin="VI"/>
+<wire x1="127" y1="154.94" x2="109.22" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$0" pin="1"/>
+<wire x1="109.22" y1="154.94" x2="109.22" y2="129.54" width="0.1524" layer="91"/>
+<label x="109.22" y="142.24" size="1.778" layer="95" xref="yes"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="127" y1="144.78" x2="127" y2="154.94" width="0.1524" layer="91"/>
+<junction x="127" y="154.94"/>
 </segment>
 </net>
 </nets>
