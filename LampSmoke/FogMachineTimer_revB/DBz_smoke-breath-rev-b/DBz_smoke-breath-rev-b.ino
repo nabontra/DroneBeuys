@@ -9,7 +9,12 @@ void setup() {
 }
 
 void loop() {
-  delay(25*1000);  //initial pause
+  for(int x=0; x < 60; x++){
+    delay(10*1000);  //initial pause
+    digitalWrite(1, HIGH);  //activate led indicator eyes
+    delay(200);
+    digitalWrite(1, LOW);   //turn off eyes
+  }
   digitalWrite(0, HIGH);  //activate relay for smoke machine
   digitalWrite(1, HIGH);  //activate led indicator eyes
   delay(5000);            //pause while smoke is coming out
